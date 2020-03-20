@@ -1,8 +1,5 @@
 #!/bin/sh
 
-if [ "$NEXUS_DATA_CHOWN" == "true" ]; then
-    chown -R nexus:nexus /opt/sonatype
-    chown -R nexus:nexus /nexus-data
-fi
-
+chown -R nexus:nexus /opt/sonatype
+chown -R nexus:nexus /nexus-data
 su-exec nexus /opt/sonatype/nexus/bin/nexus run
