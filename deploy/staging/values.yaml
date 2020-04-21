@@ -5,10 +5,10 @@ nexus:
   imageName: 308882746353.dkr.ecr.us-east-1.amazonaws.com/parkassist/sonatype-nexus
   resources:
     limits:
-      cpu: 2 
+      cpu: 1
       memory: 2000Mi
     requests:
-      cpu: 2
+      cpu: 1
       memory: 2000Mi
 nexusProxy:
   enabled: false
