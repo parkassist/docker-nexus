@@ -8,10 +8,10 @@ nexus:
   resources:
     limits:
       cpu: 1
-      memory: 2000Mi
+      memory: 750Mi
     requests:
       cpu: 1
-      memory: 2000Mi
+      memory: 750Mi
 nexusProxy:
   enabled: false
 persistence:
