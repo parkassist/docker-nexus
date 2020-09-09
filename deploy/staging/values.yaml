@@ -7,11 +7,11 @@ nexus:
     dedicated: ondemand
   resources:
     limits:
-      cpu: 1
-      memory: 750Mi
+      cpu: 750m
+      memory: 2000Mi
     requests:
-      cpu: 1
-      memory: 750Mi
+      cpu: 750m
+      memory: 2000Mi
 nexusProxy:
   enabled: false
 persistence:
