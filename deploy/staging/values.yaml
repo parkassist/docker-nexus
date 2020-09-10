@@ -21,6 +21,10 @@ persistence:
 ingress:
   tls:
     enabled: false
+  labels:
+    dns: route53
+  annotations:
+    domainName: nexus.pastaging.net
   rules:
     - host: nexus.pastaging.net
       http:
