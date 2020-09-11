@@ -19,6 +19,7 @@ persistence:
   pdName: nexus-data-disk
   fsType: ext4
 ingress:
+  enabled: true
   tls:
     enabled: false
   labels:
